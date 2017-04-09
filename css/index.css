@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 100px; 
+}
+body{
+	font-size: 0.14rem;
+	background-color: #fff;
+	font-family: 'Microsoft YaHei';
+}
+a{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style:none;
+}
+header{
+	width: 100%;
+	height: 0.46rem;
+	line-height: 0.46rem;
+	background-color: #1299ed;
+}
+header h1{
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	font-size: 0.2rem;
+}
+nav .swiper-container .active{
+	color: #009afe;
+	font-size: 0.15rem;
+	font-weight: bold;
+}
+nav .swiper-container{
+    width: 100%;
+    height: 0.31rem;
+    line-height: 0.31rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #dbdbdb;
+}
+nav{
+	position: relative;
+}
+nav .gradient{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0.53rem;
+	height: 0.31rem;
+	background: url(../images/opacity.png) no-repeat;
+	background-position: 0.09rem 0;
+	background-size: 80%;
+	z-index: 100;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 0.14rem;
+    color: #000;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.lun .swiper-container{
+    width: 100%;
+    height: 1.88rem;
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+}
+.lun img{
+	display: block;
+	width: 100%;
+}
+.lun .swiper-pagination-bullet{
+	width: 0.53rem;
+	height: 0.03rem;
+	border-radius: 0;
+	background-color: #4e4d4d;
+}
+.article{
+	width: 100%;
+	border-bottom: 1px solid #dbdbdb;
+}
+.article .container{
+	width: 90%;
+	margin: 0 auto;
+}
+.article-a{
+	overflow: hidden;
+}
+.line{
+	border-bottom: 1px solid #dbdbdb;
+}
+.article-a .left{
+	float: left;
+	width: 55%;
+}
+.article .container h2{
+	font-size: 0.16rem;
+	color: #232323;
+	margin-top: 0.12rem;
+}
+.container .record i{
+	display: inline-block;
+	width: 0.26rem;
+	height: 0.15rem;
+	margin-right: 0.08rem;
+	vertical-align: middle;
+	background: url(../images/tag.png) no-repeat;
+	background-size: 98%;
+}
+.container .record span{
+	display: inline-block;
+	color: #979797;
+	font-size: 0.09rem;
+}
+.article-a span{
+	margin: 0.15rem 0 0.09rem;
+}
+.article-b span{
+	margin: 0.08rem 0;
+}
+.article-c span{
+	margin: 0.09rem 0 0.08rem;
+}
+.article-d span{
+	margin: 0.14rem 0 0.08rem;
+}
+.article-a .right{
+	float: right;
+	width: 1.13rem;
+	height: 0.75rem;
+	margin: 0.07rem 0;
+}
+.article-a .right img{
+	width: 1.13rem;
+	height: 0.75rem;
+}
+.article-b .top{
+	width: 85%;
+	margin-bottom: 0.1rem;
+}
+.article-b .under img{
+	display: inline-block;
+	width: 32%;
+	height: 0.76rem;
+}
+.article-b .under img.center{
+	margin: 0 2%;
+}
+.article-c .video{
+	margin-top: 0.07rem;
+	position: relative;
+}
+.article-c .video img{
+	width: 100%;
+}
+.article-c .play{
+	width: 0.53rem;
+	height: 0.53rem;
+	background: url(../images/mv.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -0.26rem 0 0 -0.26rem;
+}
+.article-c .top{
+	width: 85%;
+	margin-bottom: 0.07rem;
+}
+.article-d .top{
+	width: 85%;
+}
+.season .tips,.fat .fat-or{
+	margin: 0.1rem auto;
+}
+.season .tips img,.fat .fat-or img{
+	width: 100%;
+}
+.change{
+	display: none;
+}
