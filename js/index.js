@@ -3,13 +3,9 @@ $(window).resize(function(){
 });
 
 $(function(){
-	var n=0;
+	$('html').css({'font-size':$(window).width()/3.2+"px"});
 	$('nav .swiper-slide').click(function(){
 		var index = $(this).index();
-		n=index;
-		tab();
+		$('.tab').eq(index).css('display','block').siblings('.tab').css('display','none');
 	});
-	function tab(){
-		$('.tab').eq(n).css('display','block').siblings().css('display','none');
-	};
 })
