@@ -72,6 +72,10 @@ nav .gradient{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+	text-overflow: ellipsis;
+
 }
 .lun .swiper-container{
     width: 100%;
