@@ -75,6 +75,7 @@ nav .gradient{
     overflow: hidden;
     white-space: nowrap;
 	text-overflow: ellipsis;
+
 }
 .lun .swiper-container{
     width: 100%;
@@ -195,4 +196,49 @@ nav .gradient{
 }
 .change{
 	display: none;
+}
+.more{
+	height: 0.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #333;
+}
+.pull_icon{
+	width: 25px;
+	height: 25px;
+	background-image: url('../images/pull.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25px;
+	transition: all .5s;
+}
+.more span{
+	padding-left: .1rem;
+}
+.more .flip{
+	transform: rotate(180deg);
+}
+.loading{
+	background-image: url('../images/loading.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25px;
+}
+.more .loading{
+  -webkit-transform: rotate(0deg) translateZ(0);
+  -webkit-transition-duration: 0;
+  -webkit-animation-name: loading;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes loading {
+  from {
+    -webkit-transform: rotate(0deg) translateZ(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateZ(0);
+  }
 }
