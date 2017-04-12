@@ -10,10 +10,11 @@
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/swiper.min.js"></script>
 	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
-	<script src="js/iscroll.js"></script>
+	<script src="js/dropload.js"></script>
+	<script src="js/khData.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 </head>
-<body>
+<body ontouchstart="" id="container">
 	<header>
 		<h1>安亭医院</h1>
 	</header>
@@ -33,7 +34,7 @@
     	</div>
     	<div class="gradient"></div>
 	</nav>
-	<div id="wrapper">
+	<div class="wrap">
 		<div class="tab">
 			<div class="lun">
 				<div class="swiper-container">
@@ -92,10 +93,9 @@
 					<div class="season line">
 						<div class="tips"><img src="images/spring.jpg" alt=""></div>
 					</div>
-					<div class="fat">
+					<div class="fat line">
 						<div class="fat-or"><img src="images/doctor.jpg" alt=""></div>
 					</div>
-					<div class="more"><i class="pull_icon"></i><span>上拉加载...</span></div>
 				</div>
 			</div>
 		</div>
@@ -240,7 +240,7 @@
 					<div class="season line">
 						<div class="tips"><img src="images/spring.jpg" alt=""></div>
 					</div>
-					<div class="fat">
+					<div class="fat line">
 						<div class="fat-or"><img src="images/doctor.jpg" alt=""></div>
 					</div>
 				</div>
@@ -269,7 +269,7 @@
 					<div class="season line">
 						<div class="tips"><img src="images/spring.jpg" alt=""></div>
 					</div>
-					<div class="fat">
+					<div class="fat line">
 						<div class="fat-or"><img src="images/doctor.jpg" alt=""></div>
 					</div>
 				</div>
@@ -380,7 +380,6 @@
 	        autoplay: 2500,
 	        autoplayDisableOnInteraction: false
 	    });
-
 	    var nav = document.querySelectorAll('nav .swiper-slide');
 	    for(var i=0;i<nav.length;i++){
 	    	nav[i].index=i;
