@@ -59,8 +59,8 @@ $(function(){
 			myscroll.refresh();
 		}, 1000)
 	}
-	if ($('.article').height()<$('#wrapper').height()) {
-		$('.more').hide();
-		myscroll.destroy();
-	}
+	// if ($('.article').height()<$('#wrapper').height()) {
+	// 	$('.more').hide();
+	// 	myscroll.destroy();
+	// }
 })
