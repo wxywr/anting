@@ -95,7 +95,6 @@ nav .gradient{
 }
 .article{
 	width: 100%;
-	border-bottom: 1px solid #dbdbdb;
 }
 .article .container{
 	width: 90%;
@@ -248,4 +247,8 @@ nav .gradient{
     100% {
         transform: rotate(360deg);
     }
+}
+.mid{
+	width: 90%;
+	margin: 0.1rem auto;
 }

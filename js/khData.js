@@ -36,17 +36,15 @@ $(function () {
                         result
                         += ''
                         + '    <hgroup class="khfxRow">'
-                        + '      <div class="mid">'
-                        + '        <span><label>昵称：</label>弦上漫步</span> '
-                        + '        <span><label>账号：</label>' + tabLenghtArray[itemIndex] + '</span> '
-                        + '        <span><label>手机：</label>1391****746</span> '
-                        + '        <span><label>券商：</label>中信证券</span> '
+                        + '      <div class="mid line">'
+                        + '        <span>' + tabLenghtArray[itemIndex] + '</span> '
+                        + '        <span>安亭医院最新开展某某某某某某某某某某某某活动的通知</span> '
                         + '      </div>'
                         + '    </hgroup>';
                     }
                 }
                 $('.tab').eq(itemIndex).append(result);
-                me.resetload();
+                me.resetload(); 
             }, 1000);
         }
     });
