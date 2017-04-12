@@ -226,6 +226,11 @@ nav .gradient{
     -webkit-animation: rotate 0.75s linear infinite;
     animation: rotate 0.75s linear infinite;
 }
+.mid{
+	width: 90%;
+	margin: 0.1rem auto;
+}
+
 @-webkit-keyframes rotate {
     0% {
         -webkit-transform: rotate(0deg);
@@ -247,8 +252,4 @@ nav .gradient{
     100% {
         transform: rotate(360deg);
     }
-}
-.mid{
-	width: 90%;
-	margin: 0.1rem auto;
 }
