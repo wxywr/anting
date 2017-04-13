@@ -230,7 +230,7 @@ nav .gradient{
 	width: 90%;
 	margin: 0.1rem auto;
 }
-/*上拉加载更多*/
+
 @-webkit-keyframes rotate {
     0% {
         -webkit-transform: rotate(0deg);
